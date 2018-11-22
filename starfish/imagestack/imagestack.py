@@ -46,8 +46,8 @@ from starfish.types import (
     PhysicalCoordinateTypes,
 )
 from starfish.util import StripArguments
+from ._axes import AXES_DATA, N_AXES
 from ._mp_dataarray import MPDataArray
-from .dataorder import AXES_DATA, N_AXES
 
 
 class ImageStack:
