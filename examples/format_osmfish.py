@@ -9,7 +9,8 @@ import numpy as np
 from slicedimage import ImageFormat
 
 import starfish.util.try_import
-from starfish.experiment.builder import FetchedTile, TileFetcher, write_experiment_json
+from starfish.experiment.builder import TileFetcher, write_experiment_json
+from starfish.imagestack.providers import FetchedTile
 from starfish.types import Coordinates, Features, Indices, Number
 
 
